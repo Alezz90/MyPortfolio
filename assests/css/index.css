@@ -26,28 +26,6 @@
   margin-top: 5px;
 }
 
-.Image, .SectionProject .ProjectCard img, .SectionProject .RprojectCard img {
-  height: 40vh;
-  width: 30vw;
-  font-size: 10rem;
-  border-radius: 15px;
-}
-
-.MyWorkDescription, .SectionProject .ProjectCard .ProjectDiscription, .SectionProject .RprojectCard .ProjectDiscription {
-  margin: 10px;
-  color: #dff9fb;
-}
-.MyWorkDescription a, .SectionProject .ProjectCard .ProjectDiscription a, .SectionProject .RprojectCard .ProjectDiscription a {
-  text-decoration: none;
-  font-size: 2rem;
-  color: #dff9fb;
-  margin-top: 0%;
-}
-.MyWorkDescription p, .SectionProject .ProjectCard .ProjectDiscription p, .SectionProject .RprojectCard .ProjectDiscription p {
-  font-size: 2rem;
-  color: #000000;
-}
-
 /*For Extend title*/
 .container {
   display: flex;
@@ -99,8 +77,29 @@
   width: 100%;
   text-align: center;
   font-size: 2rem;
+  font-weight: lighter;
   background-color: #dff9fb;
   color: #1fa1a8;
+}
+.but .Link2 .Image, .but .Link2 .SectionProject .ProjectCard img, .SectionProject .ProjectCard .but .Link2 img, .but .Link2 .SectionProject .RprojectCard img, .SectionProject .RprojectCard .but .Link2 img {
+  height: 40vh;
+  width: 30vw;
+  font-size: 10rem;
+  border-radius: 15px;
+}
+.but .Link2 .MyWorkDescription, .but .Link2 .SectionProject .ProjectCard .ProjectDiscription, .SectionProject .ProjectCard .but .Link2 .ProjectDiscription, .but .Link2 .SectionProject .RprojectCard .ProjectDiscription, .SectionProject .RprojectCard .but .Link2 .ProjectDiscription {
+  margin: 10px;
+  color: #dff9fb;
+}
+.but .Link2 .MyWorkDescription a, .but .Link2 .SectionProject .ProjectCard .ProjectDiscription a, .SectionProject .ProjectCard .but .Link2 .ProjectDiscription a, .but .Link2 .SectionProject .RprojectCard .ProjectDiscription a, .SectionProject .RprojectCard .but .Link2 .ProjectDiscription a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #dff9fb;
+  margin-top: 0%;
+}
+.but .Link2 .MyWorkDescription p, .but .Link2 .SectionProject .ProjectCard .ProjectDiscription p, .SectionProject .ProjectCard .but .Link2 .ProjectDiscription p, .but .Link2 .SectionProject .RprojectCard .ProjectDiscription p, .SectionProject .RprojectCard .but .Link2 .ProjectDiscription p {
+  font-size: 2rem;
+  color: #000000;
 }
 .but .Link2:hover {
   background-color: #dff9fb;
@@ -118,8 +117,29 @@
   width: 100%;
   text-align: center;
   font-size: 2rem;
+  font-weight: lighter;
   background-color: #1fa1a8;
   color: #dff9fb;
+}
+.but .Link1 .Image, .but .Link1 .SectionProject .ProjectCard img, .SectionProject .ProjectCard .but .Link1 img, .but .Link1 .SectionProject .RprojectCard img, .SectionProject .RprojectCard .but .Link1 img {
+  height: 40vh;
+  width: 30vw;
+  font-size: 10rem;
+  border-radius: 15px;
+}
+.but .Link1 .MyWorkDescription, .but .Link1 .SectionProject .ProjectCard .ProjectDiscription, .SectionProject .ProjectCard .but .Link1 .ProjectDiscription, .but .Link1 .SectionProject .RprojectCard .ProjectDiscription, .SectionProject .RprojectCard .but .Link1 .ProjectDiscription {
+  margin: 10px;
+  color: #dff9fb;
+}
+.but .Link1 .MyWorkDescription a, .but .Link1 .SectionProject .ProjectCard .ProjectDiscription a, .SectionProject .ProjectCard .but .Link1 .ProjectDiscription a, .but .Link1 .SectionProject .RprojectCard .ProjectDiscription a, .SectionProject .RprojectCard .but .Link1 .ProjectDiscription a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #dff9fb;
+  margin-top: 0%;
+}
+.but .Link1 .MyWorkDescription p, .but .Link1 .SectionProject .ProjectCard .ProjectDiscription p, .SectionProject .ProjectCard .but .Link1 .ProjectDiscription p, .but .Link1 .SectionProject .RprojectCard .ProjectDiscription p, .SectionProject .RprojectCard .but .Link1 .ProjectDiscription p {
+  font-size: 2rem;
+  color: #000000;
 }
 .but .Link1:hover {
   background-color: #dff9fb;
@@ -173,6 +193,9 @@
   justify-content: flex-end;
   align-items: center;
   margin-top: 0.5dvw;
+}
+.SocilIcon a {
+  text-decoration: none;
 }
 .SocilIcon i {
   display: flex;
@@ -255,9 +278,50 @@
   width: 100%;
   text-align: center;
   font-size: 2rem;
+  font-weight: lighter;
   color: #1fa1a8;
   background-color: #dff9fb;
   width: 15vw;
   text-align: center;
   text-decoration: none;
+}
+.SectionContactMe a .Image, .SectionContactMe a .SectionProject .RprojectCard img, .SectionProject .RprojectCard .SectionContactMe a img, .SectionContactMe a .SectionProject .ProjectCard img, .SectionProject .ProjectCard .SectionContactMe a img {
+  height: 40vh;
+  width: 30vw;
+  font-size: 10rem;
+  border-radius: 15px;
+}
+.SectionContactMe a .MyWorkDescription, .SectionContactMe a .SectionProject .RprojectCard .ProjectDiscription, .SectionProject .RprojectCard .SectionContactMe a .ProjectDiscription, .SectionContactMe a .SectionProject .ProjectCard .ProjectDiscription, .SectionProject .ProjectCard .SectionContactMe a .ProjectDiscription {
+  margin: 10px;
+  color: #dff9fb;
+}
+.SectionContactMe a .MyWorkDescription a, .SectionContactMe a .SectionProject .RprojectCard .ProjectDiscription a, .SectionProject .RprojectCard .SectionContactMe a .ProjectDiscription a, .SectionContactMe a .SectionProject .ProjectCard .ProjectDiscription a, .SectionProject .ProjectCard .SectionContactMe a .ProjectDiscription a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #dff9fb;
+  margin-top: 0%;
+}
+.SectionContactMe a .MyWorkDescription p, .SectionContactMe a .SectionProject .RprojectCard .ProjectDiscription p, .SectionProject .RprojectCard .SectionContactMe a .ProjectDiscription p, .SectionContactMe a .SectionProject .ProjectCard .ProjectDiscription p, .SectionProject .ProjectCard .SectionContactMe a .ProjectDiscription p {
+  font-size: 2rem;
+  color: #000000;
+}
+
+#UpArrow {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-image: url(../image/UpArrow.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  padding: 50px;
+  background-color: transparent;
+}
+
+#UpArrow:hover {
+  background-image: url(../image/UpArrow.png);
 }

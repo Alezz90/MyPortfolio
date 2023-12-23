@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assests/css/index.css" />
+    <script src="./assests/js/index.js" defer></script>
     <link
       rel="stylesheet"
       href="./assests/fontawesome-free-6.5.1-web/css/all.min.css"
@@ -11,8 +12,9 @@
     <title>ALEZZ</title>
   </head>
   <body>
+
     <div class="container">
-      <section class="SectionIntroduction">
+      <section class="SectionIntroduction" >
         <div clas="ImageDescription">
           <div class="Card">
             <img
@@ -35,35 +37,35 @@
             </div>
           </div>
           <div class="SocilIcon">
-            <i class="fa-brands fa-github fa-xs"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
+            <a href="https://github.com/Alezz90/" target="_blank"><i class="fa-brands fa-github fa-xs"></i></a>
+            <a href="https://linkedin.com/in/alezz90-softwaredeveloper"  target="_blank"> <i class="fa-brands fa-linkedin-in"></i></a>
           </div>
         </div>
         <div class="but">
-          <a class="Link1" hraf="#"> My Work</a>
-          <a hraf="#" class="Link2"> Certificate</a>
-          <a hraf="#" class="Link1"> skills</a>
-          <a hraf="#" class="Link2"> Contact Me</a>
+          <a hraf="#ProjectID" class="Link1" Id="MyWorkButton" > My Work</a>
+          <a hraf="#CertificateID" class="Link2" id="CertificateButton"> Certificate</a>
+          <a hraf="#SkillID" class="Link1" id="SkillButton"> skills</a>
+          <a hraf="#ContactMeID" class="Link2" id="ContactButton"> Contact Me</a>
         </div>
       </section>
     </div>
     <div class="container">
-      <section class="SectionSkill">
+      <section class="SectionSkill" id="SkillID">
         <h1> skills</h1>
         <div class="skillCard">
-          <i class="fa-brands fa-html5"></i>
-          <i class="fa-brands fa-css3-alt"></i>
-          <i class="fa-brands fa-sass"></i>
-          <i class="fa-brands fa-bootstrap"></i>
-          <i class="fa-brands fa-js"></i>
-          <i class="fa-brands fa-angular"></i>
-          <i class="fa-brands fa-wordpress"></i>
-          <i class="fa-solid fa-database"></i>
+          <i class="fa-brands fa-html5" title="HTML"></i>
+          <i class="fa-brands fa-css3-alt" title="CSS"></i>
+          <i class="fa-brands fa-sass" title="Sass"></i>
+          <i class="fa-brands fa-bootstrap" title="BootStrap"></i>
+          <i class="fa-brands fa-js" title="JavaScript"></i>
+          <i class="fa-brands fa-angular" title="Angular"></i>
+          <i class="fa-brands fa-wordpress" title="wordpress"></i>
+          <i class="fa-solid fa-database" title="SQL database"></i>
         </div>
       </section>
     </div>
     <div class="container">
-      <section class="SectionProject">
+      <section class="SectionProject" id="ProjectID">
         <h1>My Work</h1>
         <div class="ProjectCard">
           <img src="./assests/image/InventorySystem.png" alt="pioneer" />
@@ -88,8 +90,9 @@
               the most tools i use primeng/sidebar, primeng/splitbutton,
               primeng/confirmpopup, primeng/dialog, primeng/toast,
               primeng/cascadeselect and other.
+              <a href="https://github.com/Alezz90/AngularPrimeNG"> github Repo code</a>
             </p>
-            <a href="https://github.com/Alezz90/AngularPrimeNG"> github Repo code</a>
+            
           </div>
         </div>
         <div class="ProjectCard">
@@ -105,7 +108,7 @@
       </section>
     </div>
     <div class="container">
-      <section class="SectionCertificate">
+      <section class="SectionCertificate" id="CertificateID">
         <h1>Certificate</h1>
         <div class="CertificateCard">
          <img src="./assests/image/Sql.png" alt="Sql">
@@ -115,7 +118,7 @@
       </section>
     </div>
     <div class="container">
-      <section class="SectionContactMe">
+      <section class="SectionContactMe" id="ContactMeID">
         <h1>ContactMe</h1>
         <form action="#">
         <div class="ContactMeCard">
@@ -135,6 +138,7 @@
       </form>
       </section>
     </div>
+    <button onclick="topFunction()" id="UpArrow" title="Top"></button>
   </body>
 </html>
 <!-- document and save it, all styles start working. After restarting the project, all styles stop working again.

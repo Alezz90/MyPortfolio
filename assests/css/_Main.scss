@@ -44,7 +44,7 @@ $fontSizeHeader: 2rem;
     width: 100%;
     text-align: center;
     font-size: $fontSizeHeader;
-}
+    font-weight: lighter;
 .Image{
   height: 40vh;
   width: 30vw;
@@ -64,4 +64,5 @@ $fontSizeHeader: 2rem;
     font-size: $fontSizeHeader;
     color: $fontcolor;
   }
+}
 }
