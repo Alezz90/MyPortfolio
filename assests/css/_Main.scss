@@ -1,0 +1,67 @@
+$BackColor: #dff9fb;
+$Maincolor: #1fa1a8;
+$fontcolor:#000000;
+$fontfamily: "Permanent Marker";
+$fontSizeHeader: 2rem;
+
+
+/*For Extend h1*/
+.Heading{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    height: 10vh;
+    width: 15vw;
+    background-color: $BackColor;
+    font-family: $fontfamily;
+    color: $Maincolor;
+    box-shadow: 0 4px 8px 0 #837474;
+    border-radius: 15px;
+    font-size: $fontSizeHeader;
+    text-align: center;
+}
+.SectionTitle{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  padding: 10px;
+  background-color: $Maincolor;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+@mixin Link-text($color) {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    height: 9vh;
+    box-shadow: 0 4px 8px 0 #837474;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    font-size: $fontSizeHeader;
+}
+.Image{
+  height: 40vh;
+  width: 30vw;
+  font-size: 10rem;
+  border-radius: 15px;
+
+}.MyWorkDescription{
+  margin:10px;
+  color: $BackColor;
+  a {
+    text-decoration: none;
+    font-size: $fontSizeHeader;
+    color: $BackColor;
+    margin-top: 0%;
+  }
+  p {
+    font-size: $fontSizeHeader;
+    color: $fontcolor;
+  }
+}

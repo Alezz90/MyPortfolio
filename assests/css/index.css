@@ -1,0 +1,263 @@
+/*For Extend h1*/
+.Heading, .SectionContactMe h1, .SectionCertificate h1, .SectionProject h1, .SectionSkill h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  height: 10vh;
+  width: 15vw;
+  background-color: #dff9fb;
+  font-family: "Permanent Marker";
+  color: #1fa1a8;
+  box-shadow: 0 4px 8px 0 #837474;
+  border-radius: 15px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.SectionTitle, .SectionContactMe, .SectionCertificate, .SectionProject, .SectionSkill {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  padding: 10px;
+  background-color: #1fa1a8;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+.Image, .SectionProject .ProjectCard img, .SectionProject .RprojectCard img {
+  height: 40vh;
+  width: 30vw;
+  font-size: 10rem;
+  border-radius: 15px;
+}
+
+.MyWorkDescription, .SectionProject .ProjectCard .ProjectDiscription, .SectionProject .RprojectCard .ProjectDiscription {
+  margin: 10px;
+  color: #dff9fb;
+}
+.MyWorkDescription a, .SectionProject .ProjectCard .ProjectDiscription a, .SectionProject .RprojectCard .ProjectDiscription a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #dff9fb;
+  margin-top: 0%;
+}
+.MyWorkDescription p, .SectionProject .ProjectCard .ProjectDiscription p, .SectionProject .RprojectCard .ProjectDiscription p {
+  font-size: 2rem;
+  color: #000000;
+}
+
+/*For Extend title*/
+.container {
+  display: flex;
+  background-color: #dff9fb;
+  justify-content: space-around;
+  align-items: start;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.SectionIntroduction {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 10vh;
+  width: 80%;
+  height: 80vh;
+}
+
+.ImageDescription {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 100vh;
+}
+
+.but {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: end;
+  align-self: flex-end;
+  margin: 0 auto;
+  height: 70vh;
+  font-family: "Permanent Marker";
+  font-weight: 100;
+}
+.but .Link2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+  height: 9vh;
+  box-shadow: 0 4px 8px 0 #837474;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #dff9fb;
+  color: #1fa1a8;
+}
+.but .Link2:hover {
+  background-color: #dff9fb;
+  color: #e67f7a;
+}
+.but .Link1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+  height: 9vh;
+  box-shadow: 0 4px 8px 0 #837474;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #1fa1a8;
+  color: #dff9fb;
+}
+.but .Link1:hover {
+  background-color: #dff9fb;
+  color: #e67f7a;
+}
+
+.Card {
+  display: flex;
+  background: #1fa1a8;
+  box-shadow: 0 4px 8px 0 #837474;
+  border-radius: 15px;
+  height: 70vh;
+}
+.Card .textIntrodactio {
+  margin-right: 3%;
+}
+.Card img {
+  width: 40vw;
+  height: 100%;
+  border-bottom-left-radius: 15px;
+}
+.Card h1 {
+  color: #ffffff;
+  font-size: 3vw;
+  font-family: "Permanent Marker";
+  font-weight: 100;
+  margin-top: 10%;
+  margin-bottom: -20px;
+  padding-bottom: 0px;
+}
+.Card h2 {
+  color: #ffffff;
+  font-size: 2vw;
+  font-family: "Permanent Marker";
+  font-weight: 100;
+  text-align: center;
+  margin-right: 2%;
+  margin-top: 0%;
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+.Card p {
+  display: block;
+  color: #dff9fb;
+  font-size: 1.5vw;
+  margin: 0vw 5vw;
+}
+
+.SocilIcon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 0.5dvw;
+}
+.SocilIcon i {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2rem;
+  margin: 2px;
+  height: 7vh;
+  width: 5vw;
+  border: solid #1fa1a8;
+  border-radius: 15px;
+  color: #1fa1a8;
+}
+
+.SectionSkill .skillCard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 10vh;
+  justify-content: space-around;
+  margin: 10vh;
+}
+.SectionSkill .skillCard i {
+  height: 10vh;
+  width: 15vw;
+  font-size: 5rem;
+  color: #dff9fb;
+}
+
+.SectionProject .RprojectCard {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.SectionProject .ProjectCard {
+  display: flex;
+  justify-content: space-around;
+}
+.SectionCertificate .CertificateCard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10vh;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+.SectionCertificate img {
+  width: 30vw;
+  height: 38vh;
+}
+
+/*Contact Me Section*/
+.SectionContactMe .ContactMeCard {
+  display: flex;
+  flex-direction: row;
+  gap: 10vh;
+  justify-content: space-around;
+  margin: 10vh;
+}
+.SectionContactMe label {
+  font-size: 2.5rem;
+  color: #dff9fb;
+}
+.SectionContactMe input {
+  width: 50vw;
+  height: 5vh;
+  font-size: 2rem;
+  border-radius: 15px;
+}
+.SectionContactMe .DetClas {
+  height: 30vh;
+}
+.SectionContactMe a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+  height: 9vh;
+  box-shadow: 0 4px 8px 0 #837474;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: #1fa1a8;
+  background-color: #dff9fb;
+  width: 15vw;
+  text-align: center;
+  text-decoration: none;
+}

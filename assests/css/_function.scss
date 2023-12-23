@@ -1,0 +1,6 @@
+@function linkhover($color,$amount: 30%){
+$comp: complement($color);
+$hove:lighten($comp,$amount);
+@return $hove;
+}
+

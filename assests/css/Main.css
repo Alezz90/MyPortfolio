@@ -1,0 +1,27 @@
+/*For Extend h1*/
+.Heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  height: 10vh;
+  width: 15vw;
+  background-color: #dff9fb;
+  font-family: "Permanent Marker";
+  color: #079992;
+  box-shadow: 0 4px 8px 0 #837474;
+  border-radius: 15px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.SectionTitle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  padding: 10px;
+  background-color: #079992;
+  border-radius: 15px;
+  margin-top: 5px;
+}
